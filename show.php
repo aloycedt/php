@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+     <?php
+    include 'header.php';
+    ?>
     <h1>confirmation you filled this form.</h1>
   <span><h4>First NAME:<h4></span> <span style="color: blue"><?php echo $_POST["fname"];?> </span>
     <span><h4>Last NAME:<h4></span> <span style="color: blue"><?php echo $_POST["lname"];?> </span>

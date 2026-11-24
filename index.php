@@ -70,7 +70,6 @@
 
     <?php
     include 'header.php';
-    // Removed "echo 'header.php';" so it doesn't print the filename text onto your page
     ?>
 
     <div style="text-align: center; margin-top: 10px;">
